@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}Radio Player Page</title>
+  <style>
+    :root {
+      --sidebar-bg: #1a1d23;
+      --sidebar-text: #e6edf3;
+      --sidebar-text-muted: #8b949e;
+      --sidebar-accent: #58a6ff;
+      --sidebar-width: 260px;
+      --content-bg: #ffffff;
+      --content-text: #1f2328;
+      --content-muted: #656d76;
+      --border: #d0d7de;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--content-text); background: var(--content-bg); }
+    .layout { display: flex; min-height: 100vh; }
+    .sidebar {
+      width: var(--sidebar-width); min-width: var(--sidebar-width);
+      background: var(--sidebar-bg); color: var(--sidebar-text);
+      padding: 1.5rem 0; position: sticky; top: 0; height: 100vh;
+    }
+    .sidebar-header { padding: 0 1.25rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 1rem; }
+    .sidebar-header a { color: var(--sidebar-text); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .sidebar-header a:hover { color: var(--sidebar-accent); }
+    .sidebar-nav { padding: 0 0.75rem; }
+    .sidebar-nav section { margin-bottom: 1.25rem; }
+    .sidebar-nav .nav-title { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--sidebar-text-muted); padding: 0 0.5rem 0.35rem; }
+    .sidebar-nav ul { list-style: none; margin: 0; padding: 0; }
+    .sidebar-nav li { margin: 0; }
+    .sidebar-nav a { display: block; padding: 0.4rem 0.5rem; color: var(--sidebar-text-muted); text-decoration: none; font-size: 0.9rem; border-radius: 6px; }
+    .sidebar-nav a:hover { color: var(--sidebar-text); background: rgba(255,255,255,0.06); }
+    .sidebar-nav a.active { color: var(--sidebar-accent); background: rgba(88,166,255,0.12); }
+    .sidebar-nav a.external::after { content: " ↗"; font-size: 0.75em; opacity: 0.7; }
+    .sidebar-nav .doc-topics { padding-left: 0.5rem; margin-top: 0.25rem; }
+    .sidebar-nav .doc-topics a { font-size: 0.85rem; padding: 0.3rem 0.5rem; }
+    .main { flex: 1; padding: 2rem 3rem 3rem; max-width: 720px; }
+    .main h1 { font-size: 1.75rem; font-weight: 600; margin: 0 0 0.5rem; color: var(--content-text); }
+    .main h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 0.75rem; padding-bottom: 0.25rem; border-bottom: 1px solid var(--border); color: var(--content-text); }
+    .main h3 { font-size: 1.05rem; font-weight: 600; margin: 1.5rem 0 0.5rem; color: var(--content-text); }
+    .main p { margin: 0 0 1rem; color: var(--content-text); }
+    .main ul, .main ol { margin: 0 0 1rem; padding-left: 1.5rem; }
+    .main li { margin: 0.25rem 0; }
+    .main a { color: #0969da; text-decoration: none; }
+    .main a:hover { text-decoration: underline; }
+    .main code { background: #f6f8fa; padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; border: 1px solid var(--border); }
+    .main pre { background: #f6f8fa; padding: 1rem; border-radius: 6px; overflow-x: auto; border: 1px solid var(--border); }
+    .main pre code { background: none; padding: 0; border: none; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid var(--border); padding: 0.6rem 0.75rem; text-align: left; }
+    th { background: #f6f8fa; font-weight: 600; }
+    @media (max-width: 768px) {
+      .layout { flex-direction: column; }
+      .sidebar { position: relative; height: auto; width: 100%; min-width: 0; padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06); }
+      .sidebar-nav { display: flex; flex-wrap: wrap; gap: 1rem; padding: 0; }
+      .sidebar-nav section { margin-bottom: 0; }
+      .main { padding: 1.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <a href="{{ site.baseurl }}/">Radio Player Page</a>
+      </div>
+      <nav class="sidebar-nav">
+        <section>
+          <div class="nav-title">Documentation</div>
+          <ul>
+            <li><a href="{{ site.baseurl }}/docs/en/" {% if page.url contains '/docs/en' %}class="active"{% endif %}>English (US)</a></li>
+            <li><a href="{{ site.baseurl }}/docs/es/" {% if page.url contains '/docs/es' %}class="active"{% endif %}>Español (España)</a></li>
+            <li><a href="{{ site.baseurl }}/docs/pt/" {% if page.url contains '/docs/pt' %}class="active"{% endif %}>Português (Brasil)</a></li>
+          </ul>
+          {% if page.url contains '/docs/en/' or page.url contains '/docs/es/' or page.url contains '/docs/pt/' %}
+            {% assign lang = nil %}
+            {% if page.url contains '/docs/en/' %} {% assign lang = 'en' %} {% endif %}
+            {% if page.url contains '/docs/es/' %} {% assign lang = 'es' %} {% endif %}
+            {% if page.url contains '/docs/pt/' %} {% assign lang = 'pt' %} {% endif %}
+            {% if lang %}
+              <ul class="doc-topics">
+                {% for topic in site.doc_topics %}
+                  {% assign topic_url = topic.path | append: '.html' %}
+                  <li><a href="{{ site.baseurl }}/docs/{{ lang }}/{{ topic_url }}" {% if page.url contains topic.path %}class="active"{% endif %}>{{ topic[lang] }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endif %}
+        </section>
+        <section>
+          <div class="nav-title">External links</div>
+          <ul>
+            <li><a href="https://wordpress.org/plugins/radio-player-page/" class="external">WordPress.org</a></li>
+            <li><a href="https://github.com/sjimhdez/radio-player-page" class="external">Source (GitHub)</a></li>
+            <li><a href="https://wordpress.org/support/plugin/radio-player-page/" class="external">Support forum</a></li>
+          </ul>
+        </section>
+      </nav>
+    </aside>
+    <main class="main">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

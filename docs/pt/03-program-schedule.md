@@ -1,8 +1,13 @@
+---
+layout: default
+title: Grade de programação
+---
+
 # Grade de programação
 
 A grade de programação permite que o player mostre **o que está no ar agora** e **o que vem a seguir**. Você define programas (nome, logo e descrições opcionais) e os atribui a faixas horárias para cada dia da semana. O player usa o fuso horário do WordPress e atualiza no início de cada minuto.
 
-**Anterior:** [Configuração](02-configuration.md) · **Próximo:** [Personalização visual](04-visual-customization.md)
+**Anterior:** [Configuração](02-configuration.html) · **Próximo:** [Personalização visual](04-visual-customization.html)
 
 ## O que o player mostra
 
@@ -54,4 +59,4 @@ A descrição abaixo da grade no admin resume: atribua programas a faixas por di
 
 O “agora” usado para o programa atual e o anúncio do “próximo” é o **horário do site WordPress** (Configurações → Geral → Fuso horário). Se sua estação transmite em outro fuso horário, defina o fuso horário do WordPress para o da estação. O relógio de fuso horário no player (quando exibido) mostra o horário da estação e a diferença em relação ao visitante.
 
-**Anterior:** [Configuração](02-configuration.md) · **Próximo:** [Personalização visual](04-visual-customization.md)
+**Anterior:** [Configuração](02-configuration.html) · **Próximo:** [Personalização visual](04-visual-customization.html)

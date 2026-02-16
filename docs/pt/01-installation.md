@@ -1,3 +1,8 @@
+---
+layout: default
+title: Instalação
+---
+
 # Instalação
 
 Esta página descreve os requisitos e os passos para instalar e ativar o Radio Player Page.
@@ -29,4 +34,4 @@ Para melhor experiência, use um navegador moderno. Os visualizadores de áudio 
 
 Não é necessário configurar nada na própria página do WordPress. O plugin usa o hook `template_redirect` do WordPress: quando um visitante solicita uma página atribuída a uma estação, o plugin serve uma página HTML independente com o player e impede o carregamento do tema. O conteúdo e o modelo da página não são usados para essa URL.
 
-**Próximo:** [Configuração](02-configuration.md) — Definir nome da estação, tema, visualizador, imagens e grade de programação opcional.
+**Próximo:** [Configuração](02-configuration.html) — Definir nome da estação, tema, visualizador, imagens e grade de programação opcional.

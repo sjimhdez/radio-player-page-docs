@@ -1,8 +1,13 @@
+---
+layout: default
+title: Visual Customization
+---
+
 # Visual Customization
 
 You can tailor the look of the player with theme colors, audio visualizers, and images. All options are per station and are set in **Settings → Radio Player Page Settings**.
 
-**Previous:** [Program Schedule](03-program-schedule.md) · **Next:** [Multiple Stations](05-multiple-stations.md)
+**Previous:** [Program Schedule](03-program-schedule.html) · **Next:** [Multiple Stations](05-multiple-stations.html)
 
 ## Theme color
 
@@ -46,7 +51,7 @@ The **Background Image** is displayed full-size behind the player. There is no f
 
 ### Program logo
 
-When you define programs in the [Program Schedule](03-program-schedule.md), you can attach an optional image to each program. Recommended size: **256×256 pixels**. Program logos appear in the schedule modal and in the All Programs modal.
+When you define programs in the [Program Schedule](03-program-schedule.html), you can attach an optional image to each program. Recommended size: **256×256 pixels**. Program logos appear in the schedule modal and in the All Programs modal.
 
 ## Notes
 
@@ -54,4 +59,4 @@ When you define programs in the [Program Schedule](03-program-schedule.md), you 
 - **iOS** — The volume slider is hidden on iOS because the system controls playback volume. HLS streams use the native Safari player when available.
 - **Performance** — Visualizers and streaming libraries (e.g. for HLS/DASH) are loaded on demand to keep the initial page load light.
 
-**Previous:** [Program Schedule](03-program-schedule.md) · **Next:** [Multiple Stations](05-multiple-stations.md)
+**Previous:** [Program Schedule](03-program-schedule.html) · **Next:** [Multiple Stations](05-multiple-stations.html)

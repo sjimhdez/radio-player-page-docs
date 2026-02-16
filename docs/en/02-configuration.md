@@ -1,8 +1,13 @@
+---
+layout: default
+title: Configuration
+---
+
 # Configuration
 
 All station settings are managed in **Settings → Radio Player Page Settings**. Each station has its own block of options; this page describes every field.
 
-**Previous:** [Installation](01-installation.md) · **Next:** [Program Schedule](03-program-schedule.md)
+**Previous:** [Installation](01-installation.html) · **Next:** [Program Schedule](03-program-schedule.html)
 
 ## Where to configure
 
@@ -49,10 +54,10 @@ A full-size image displayed behind the player. Use **Select Image** to set it an
 
 ### Program Schedule (optional)
 
-A collapsible section to define **programs** (name, optional logo, optional descriptions) and a **weekly schedule** of time slots per day. The player then shows the current and next program and can announce the next one when it starts in 10 minutes or less. For full details, see [Program Schedule](03-program-schedule.md).
+A collapsible section to define **programs** (name, optional logo, optional descriptions) and a **weekly schedule** of time slots per day. The player then shows the current and next program and can announce the next one when it starts in 10 minutes or less. For full details, see [Program Schedule](03-program-schedule.html).
 
 ## Saving changes
 
 Always click **Save Changes** at the bottom of the form after editing. Until you save, your changes are not stored and the player will not reflect them.
 
-**Previous:** [Installation](01-installation.md) · **Next:** [Program Schedule](03-program-schedule.md)
+**Previous:** [Installation](01-installation.html) · **Next:** [Program Schedule](03-program-schedule.html)

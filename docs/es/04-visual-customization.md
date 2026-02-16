@@ -1,8 +1,13 @@
+---
+layout: default
+title: Personalización visual
+---
+
 # Personalización visual
 
 Podéis adaptar el aspecto del reproductor con temas de color, visualizadores de audio e imágenes. Todas las opciones son por estación y se configuran en **Ajustes → Radio Player Page Settings**.
 
-**Anterior:** [Parrilla de programación](03-program-schedule.md) · **Siguiente:** [Múltiples estaciones](05-multiple-stations.md)
+**Anterior:** [Parrilla de programación](03-program-schedule.html) · **Siguiente:** [Múltiples estaciones](05-multiple-stations.html)
 
 ## Tema de color
 
@@ -46,7 +51,7 @@ La **Background Image** se muestra a tamaño completo detrás del reproductor. N
 
 ### Logo de programa
 
-Cuando definís programas en la [Parrilla de programación](03-program-schedule.md), podéis adjuntar una imagen opcional a cada programa. Tamaño recomendado: **256×256 píxeles**. Los logotipos de programa aparecen en el modal de parrilla y en el modal de todos los programas.
+Cuando definís programas en la [Parrilla de programación](03-program-schedule.html), podéis adjuntar una imagen opcional a cada programa. Tamaño recomendado: **256×256 píxeles**. Los logotipos de programa aparecen en el modal de parrilla y en el modal de todos los programas.
 
 ## Notas
 
@@ -54,4 +59,4 @@ Cuando definís programas en la [Parrilla de programación](03-program-schedule.
 - **iOS** — El control de volumen se oculta en iOS porque el sistema controla el volumen de reproducción. Los streams HLS usan el reproductor nativo de Safari cuando está disponible.
 - **Rendimiento** — Los visualizadores y las librerías de streaming (p. ej. para HLS/DASH) se cargan bajo demanda para mantener la carga inicial ligera.
 
-**Anterior:** [Parrilla de programación](03-program-schedule.md) · **Siguiente:** [Múltiples estaciones](05-multiple-stations.md)
+**Anterior:** [Parrilla de programación](03-program-schedule.html) · **Siguiente:** [Múltiples estaciones](05-multiple-stations.html)

@@ -1,8 +1,13 @@
+---
+layout: default
+title: Múltiples estaciones
+---
+
 # Múltiples estaciones
 
 Radio Player Page permite hasta **10 estaciones** en una sola instalación de WordPress. Cada estación tiene su propia URL de streaming, página de WordPress y opcionalmente imagen de marca y parrilla de programación.
 
-**Anterior:** [Personalización visual](04-visual-customization.md) · **Siguiente:** [FAQ](06-faq.md)
+**Anterior:** [Personalización visual](04-visual-customization.html) · **Siguiente:** [FAQ](06-faq.html)
 
 ## Opciones por estación
 
@@ -24,4 +29,4 @@ Cada estación es independiente:
 - **Varios canales** — Por ejemplo, un stream de música y otro de noticias o tertulias, cada uno en su página.
 - **Varios streams** — Cualquier configuración en la que necesitéis más de una página de reproductor con streams y parrillas opcionales distintas.
 
-**Anterior:** [Personalización visual](04-visual-customization.md) · **Siguiente:** [FAQ](06-faq.md)
+**Anterior:** [Personalización visual](04-visual-customization.html) · **Siguiente:** [FAQ](06-faq.html)

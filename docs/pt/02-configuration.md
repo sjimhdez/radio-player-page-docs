@@ -1,8 +1,13 @@
+---
+layout: default
+title: Configuração
+---
+
 # Configuração
 
 Todas as opções das estações são gerenciadas em **Configurações → Radio Player Page Settings**. Cada estação tem seu próprio bloco de opções; esta página descreve cada campo.
 
-**Anterior:** [Instalação](01-installation.md) · **Próximo:** [Grade de programação](03-program-schedule.md)
+**Anterior:** [Instalação](01-installation.html) · **Próximo:** [Grade de programação](03-program-schedule.html)
 
 ## Onde configurar
 
@@ -49,10 +54,10 @@ Uma imagem em tamanho completo exibida atrás do player. Use **Select Image** pa
 
 ### Program Schedule (opcional)
 
-Seção recolhível para definir **programas** (nome, logo opcional, descrições opcionais) e a **grade semanal** de faixas horárias por dia. O player então mostra o programa atual e o próximo e pode anunciar o próximo quando ele começar em 10 minutos ou menos. Para todos os detalhes, veja [Grade de programação](03-program-schedule.md).
+Seção recolhível para definir **programas** (nome, logo opcional, descrições opcionais) e a **grade semanal** de faixas horárias por dia. O player então mostra o programa atual e o próximo e pode anunciar o próximo quando ele começar em 10 minutos ou menos. Para todos os detalhes, veja [Grade de programação](03-program-schedule.html).
 
 ## Salvar alterações
 
 Sempre clique em **Save Changes** no final do formulário após editar. Até salvar, as alterações não são armazenadas e o player não as refletirá.
 
-**Anterior:** [Instalação](01-installation.md) · **Próximo:** [Grade de programação](03-program-schedule.md)
+**Anterior:** [Instalação](01-installation.html) · **Próximo:** [Grade de programação](03-program-schedule.html)

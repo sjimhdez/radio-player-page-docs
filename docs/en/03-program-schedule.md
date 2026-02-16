@@ -1,8 +1,13 @@
+---
+layout: default
+title: Program Schedule
+---
+
 # Program Schedule
 
 The program schedule lets the player show **what is on air now** and **what is coming next**. You define programs (name, optional logo and descriptions), then assign them to time slots for each day of the week. The player uses your WordPress timezone and updates at the start of each minute.
 
-**Previous:** [Configuration](02-configuration.md) · **Next:** [Visual Customization](04-visual-customization.md)
+**Previous:** [Configuration](02-configuration.html) · **Next:** [Visual Customization](04-visual-customization.html)
 
 ## What the player shows
 
@@ -54,4 +59,4 @@ The description under the schedule in the admin summarizes this: assign programs
 
 The “now” used for the current program and the “next” program announcement is the **WordPress site time** (Settings → General → Timezone). If your station broadcasts in a different timezone, set the WordPress timezone to that of the station. The timezone clock in the player (when visible) shows the station time and the difference from the visitor’s time.
 
-**Previous:** [Configuration](02-configuration.md) · **Next:** [Visual Customization](04-visual-customization.md)
+**Previous:** [Configuration](02-configuration.html) · **Next:** [Visual Customization](04-visual-customization.html)

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Instalación
+---
+
 # Instalación
 
 Esta página describe los requisitos y los pasos para instalar y activar Radio Player Page.
@@ -29,4 +34,4 @@ Para una mejor experiencia, usad un navegador moderno. Los visualizadores de aud
 
 No es necesario configurar nada en la propia página de WordPress. El plugin usa el hook `template_redirect` de WordPress: cuando un visitante solicita una página asignada a una estación, el plugin sirve una página HTML independiente con el reproductor y evita que se cargue el tema. El contenido y la plantilla de la página no se usan para esa URL.
 
-**Siguiente:** [Configuración](02-configuration.md) — Establecer nombre de estación, tema, visualizador, imágenes y parrilla opcional.
+**Siguiente:** [Configuración](02-configuration.html) — Establecer nombre de estación, tema, visualizador, imágenes y parrilla opcional.

@@ -1,8 +1,13 @@
+---
+layout: default
+title: Configuración
+---
+
 # Configuración
 
 Todas las opciones de las estaciones se gestionan en **Ajustes → Radio Player Page Settings**. Cada estación tiene su propio bloque de opciones; esta página describe cada campo.
 
-**Anterior:** [Instalación](01-installation.md) · **Siguiente:** [Parrilla de programación](03-program-schedule.md)
+**Anterior:** [Instalación](01-installation.html) · **Siguiente:** [Parrilla de programación](03-program-schedule.html)
 
 ## Dónde configurar
 
@@ -49,10 +54,10 @@ Una imagen a tamaño completo mostrada detrás del reproductor. Usad **Select Im
 
 ### Program Schedule (opcional)
 
-Sección colapsable para definir **programas** (nombre, logo opcional, descripciones opcionales) y la **parrilla semanal** de franjas horarias por día. El reproductor mostrará entonces el programa actual y el siguiente y puede anunciar el próximo cuando falten 10 minutos o menos. Para todos los detalles, ved [Parrilla de programación](03-program-schedule.md).
+Sección colapsable para definir **programas** (nombre, logo opcional, descripciones opcionales) y la **parrilla semanal** de franjas horarias por día. El reproductor mostrará entonces el programa actual y el siguiente y puede anunciar el próximo cuando falten 10 minutos o menos. Para todos los detalles, ved [Parrilla de programación](03-program-schedule.html).
 
 ## Guardar cambios
 
 Siempre haced clic en **Guardar cambios** al final del formulario después de editar. Hasta que guardéis, los cambios no se almacenan y el reproductor no los reflejará.
 
-**Anterior:** [Instalación](01-installation.md) · **Siguiente:** [Parrilla de programación](03-program-schedule.md)
+**Anterior:** [Instalación](01-installation.html) · **Siguiente:** [Parrilla de programación](03-program-schedule.html)

@@ -1,8 +1,13 @@
+---
+layout: default
+title: Multiple Stations
+---
+
 # Multiple Stations
 
 Radio Player Page supports up to **10 stations** in a single WordPress installation. Each station has its own streaming URL, WordPress page, and optional branding and program schedule.
 
-**Previous:** [Visual Customization](04-visual-customization.md) · **Next:** [FAQ](06-faq.md)
+**Previous:** [Visual Customization](04-visual-customization.html) · **Next:** [FAQ](06-faq.html)
 
 ## Per-station settings
 
@@ -24,4 +29,4 @@ Each station is independent:
 - **Multiple channels** — For example, one stream for music and another for news or talk, each on its own page.
 - **Multiple streams** — Any setup where you need more than one player page with different streams and optional schedules.
 
-**Previous:** [Visual Customization](04-visual-customization.md) · **Next:** [FAQ](06-faq.md)
+**Previous:** [Visual Customization](04-visual-customization.html) · **Next:** [FAQ](06-faq.html)

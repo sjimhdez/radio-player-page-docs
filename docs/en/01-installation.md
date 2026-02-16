@@ -1,3 +1,8 @@
+---
+layout: default
+title: Installation
+---
+
 # Installation
 
 This page covers the requirements and steps to install and activate Radio Player Page.
@@ -29,4 +34,4 @@ For the best experience, use a modern browser. The audio visualizers use the Web
 
 No configuration is needed on the WordPress page itself. The plugin uses WordPress’s `template_redirect` hook: when a visitor requests a page that is assigned to a station, the plugin serves a standalone HTML page with the player and stops the normal theme from loading. The page content and template you might have set are not used for that URL.
 
-**Next:** [Configuration](02-configuration.md) — Set station name, theme, visualizer, images, and optional program schedule.
+**Next:** [Configuration](02-configuration.html) — Set station name, theme, visualizer, images, and optional program schedule.

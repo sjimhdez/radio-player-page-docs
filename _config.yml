@@ -1,0 +1,34 @@
+# GitHub Pages: use baseurl if the site is at https://user.github.io/repo-name/
+# For a user/org main site, set baseurl: ""
+baseurl: "/radio-player-page-docs"
+url: "https://sjimhdez.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+# Sidebar: topic pages per language (path without .md)
+doc_topics:
+  - path: "01-installation"
+    en: "Installation"
+    es: "Instalación"
+    pt: "Instalação"
+  - path: "02-configuration"
+    en: "Configuration"
+    es: "Configuración"
+    pt: "Configuração"
+  - path: "03-program-schedule"
+    en: "Program Schedule"
+    es: "Parrilla de programación"
+    pt: "Grade de programação"
+  - path: "04-visual-customization"
+    en: "Visual Customization"
+    es: "Personalización visual"
+    pt: "Personalização visual"
+  - path: "05-multiple-stations"
+    en: "Multiple Stations"
+    es: "Múltiples estaciones"
+    pt: "Múltiplas estações"
+  - path: "06-faq"
+    en: "FAQ"
+    es: "Preguntas frecuentes"
+    pt: "Perguntas frequentes"

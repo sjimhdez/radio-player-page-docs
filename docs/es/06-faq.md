@@ -1,6 +1,11 @@
+---
+layout: default
+title: Preguntas frecuentes
+---
+
 # Preguntas frecuentes
 
-**Anterior:** [Múltiples estaciones](05-multiple-stations.md) · **Volver a:** [Índice de documentación](index.md)
+**Anterior:** [Múltiples estaciones](05-multiple-stations.html) · **Volver a:** [Índice de documentación](index.html)
 
 ## ¿Hay que configurar algo en la página de WordPress?
 
@@ -52,4 +57,4 @@ Si el reproductor no arranca o el stream no suena:
 
 Si el problema continúa, describid vuestra configuración (tipo de stream, formato de URL y mensajes de error) en el [foro de soporte](https://wordpress.org/support/plugin/radio-player-page/).
 
-**Anterior:** [Múltiples estaciones](05-multiple-stations.md) · **Volver a:** [Índice de documentación](index.md)
+**Anterior:** [Múltiples estaciones](05-multiple-stations.html) · **Volver a:** [Índice de documentación](index.html)

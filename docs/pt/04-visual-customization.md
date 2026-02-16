@@ -1,8 +1,13 @@
+---
+layout: default
+title: Personalização visual
+---
+
 # Personalização visual
 
 Você pode adaptar a aparência do player com temas de cor, visualizadores de áudio e imagens. Todas as opções são por estação e são definidas em **Configurações → Radio Player Page Settings**.
 
-**Anterior:** [Grade de programação](03-program-schedule.md) · **Próximo:** [Múltiplas estações](05-multiple-stations.md)
+**Anterior:** [Grade de programação](03-program-schedule.html) · **Próximo:** [Múltiplas estações](05-multiple-stations.html)
 
 ## Tema de cor
 
@@ -46,7 +51,7 @@ A **Background Image** é exibida em tamanho completo atrás do player. Não há
 
 ### Logo do programa
 
-Quando você define programas na [Grade de programação](03-program-schedule.md), pode anexar uma imagem opcional a cada programa. Tamanho recomendado: **256×256 pixels**. Os logos dos programas aparecem no modal da grade e no modal de todos os programas.
+Quando você define programas na [Grade de programação](03-program-schedule.html), pode anexar uma imagem opcional a cada programa. Tamanho recomendado: **256×256 pixels**. Os logos dos programas aparecem no modal da grade e no modal de todos os programas.
 
 ## Notas
 
@@ -54,4 +59,4 @@ Quando você define programas na [Grade de programação](03-program-schedule.md
 - **iOS** — O controle de volume fica oculto no iOS porque o sistema controla o volume da reprodução. Streams HLS usam o player nativo do Safari quando disponível.
 - **Desempenho** — Visualizadores e bibliotecas de streaming (ex.: para HLS/DASH) são carregados sob demanda para manter a carga inicial leve.
 
-**Anterior:** [Grade de programação](03-program-schedule.md) · **Próximo:** [Múltiplas estações](05-multiple-stations.md)
+**Anterior:** [Grade de programação](03-program-schedule.html) · **Próximo:** [Múltiplas estações](05-multiple-stations.html)

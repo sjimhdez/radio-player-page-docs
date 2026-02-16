@@ -1,8 +1,13 @@
+---
+layout: default
+title: Parrilla de programación
+---
+
 # Parrilla de programación
 
 La parrilla de programación permite que el reproductor muestre **qué suena ahora** y **qué viene después**. Definid programas (nombre, logo y descripciones opcionales) y asignadlos a franjas horarias para cada día de la semana. El reproductor usa la zona horaria de WordPress y se actualiza al inicio de cada minuto.
 
-**Anterior:** [Configuración](02-configuration.md) · **Siguiente:** [Personalización visual](04-visual-customization.md)
+**Anterior:** [Configuración](02-configuration.html) · **Siguiente:** [Personalización visual](04-visual-customization.html)
 
 ## Qué muestra el reproductor
 
@@ -54,4 +59,4 @@ La descripción bajo la parrilla en el admin lo resume: asignad programas a fran
 
 El “ahora” usado para el programa actual y el anuncio del “siguiente” es la **hora del sitio WordPress** (Ajustes → General → Zona horaria). Si vuestra emisora emite en otra zona horaria, configurad la zona horaria de WordPress a la de la emisora. El reloj de zona horaria en el reproductor (cuando se muestra) indica la hora de la emisora y la diferencia con la del visitante.
 
-**Anterior:** [Configuración](02-configuration.md) · **Siguiente:** [Personalización visual](04-visual-customization.md)
+**Anterior:** [Configuración](02-configuration.html) · **Siguiente:** [Personalización visual](04-visual-customization.html)

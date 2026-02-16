@@ -1,3 +1,8 @@
+---
+layout: default
+title: Radio Player Page
+---
+
 # Radio Player Page
 
 Radio Player Page es un plugin de WordPress que ofrece **páginas dedicadas e independientes** para vuestros streams de radio. Cada estación tiene su propia página con parrilla de programación y reproducción continua, sin depender del tema.
@@ -18,12 +23,12 @@ Radio Player Page es un plugin de WordPress que ofrece **páginas dedicadas e in
 
 | Tema | Descripción |
 |------|-------------|
-| [Instalación](01-installation.md) | Requisitos e instalación paso a paso. |
-| [Configuración](02-configuration.md) | Todas las opciones por estación: Página del reproductor, URL de streaming, tema, visualizador, imágenes, parrilla. |
-| [Parrilla de programación](03-program-schedule.md) | Definir programas y franjas horarias semanales; cómo muestra el reproductor el programa actual y el siguiente. |
-| [Personalización visual](04-visual-customization.md) | Temas de color, visualizadores e imágenes (estación y programa). |
-| [Múltiples estaciones](05-multiple-stations.md) | Gestionar hasta 10 estaciones; Añadir y quitar estación. |
-| [FAQ](06-faq.md) | Preguntas frecuentes y resolución de problemas. |
+| [Instalación](01-installation.html) | Requisitos e instalación paso a paso. |
+| [Configuración](02-configuration.html) | Todas las opciones por estación: Página del reproductor, URL de streaming, tema, visualizador, imágenes, parrilla. |
+| [Parrilla de programación](03-program-schedule.html) | Definir programas y franjas horarias semanales; cómo muestra el reproductor el programa actual y el siguiente. |
+| [Personalización visual](04-visual-customization.html) | Temas de color, visualizadores e imágenes (estación y programa). |
+| [Múltiples estaciones](05-multiple-stations.html) | Gestionar hasta 10 estaciones; Añadir y quitar estación. |
+| [FAQ](06-faq.html) | Preguntas frecuentes y resolución de problemas. |
 
 ## Versión
 
