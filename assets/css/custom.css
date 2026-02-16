@@ -1,0 +1,7 @@
+/* Optional styles for documentation site (e.g. GitHub Pages) */
+/* Max width and spacing for readability */
+.docs-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
